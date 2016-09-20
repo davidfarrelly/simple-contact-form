@@ -22,7 +22,7 @@ if (isset($_POST["submit"])) {
     $message=$_POST["message"];
 
     $from="From: $name<$email>\r\nReturn-path: $email";
-		mail("dfarrelly96@gmail.com", $subject, $message, $from);
+		mail("youremail@gmail.com", $subject, $message, $from);
     echo '<script language="javascript">';
     echo 'alert("Thank you for your message, it has been sent.")';
     echo '</script>';
